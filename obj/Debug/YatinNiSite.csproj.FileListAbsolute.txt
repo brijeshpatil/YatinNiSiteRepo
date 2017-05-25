@@ -1,0 +1,6 @@
+E:\YatinLecs\YatinNiSite\YatinNiSite\obj\Debug\YatinNiSite.csprojResolveAssemblyReference.cache
+E:\YatinLecs\YatinNiSite\YatinNiSite\bin\YatinNiSite.dll.config
+E:\YatinLecs\YatinNiSite\YatinNiSite\bin\YatinNiSite.dll
+E:\YatinLecs\YatinNiSite\YatinNiSite\bin\YatinNiSite.pdb
+E:\YatinLecs\YatinNiSite\YatinNiSite\obj\Debug\YatinNiSite.dll
+E:\YatinLecs\YatinNiSite\YatinNiSite\obj\Debug\YatinNiSite.pdb

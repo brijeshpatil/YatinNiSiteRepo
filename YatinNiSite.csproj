@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7ED5232-5206-493A-A489-2DFB0B27741D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YatinNiSite</RootNamespace>
+    <AssemblyName>YatinNiSite</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminLogin.aspx" />
+    <Content Include="Admin\Home.aspx" />
+    <Content Include="Admin\ManageLocation.aspx" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="patros-web\web\blog.html" />
+    <Content Include="patros-web\web\css\bootstrap.min.css" />
+    <Content Include="patros-web\web\css\patros.css" />
+    <Content Include="patros-web\web\DOCS\FEATURES.txt" />
+    <Content Include="patros-web\web\DOCS\LICENSE.txt" />
+    <Content Include="patros-web\web\DOCS\README.txt" />
+    <Content Include="patros-web\web\font-awesome\css\font-awesome.css" />
+    <Content Include="patros-web\web\font-awesome\css\font-awesome.min.css" />
+    <Content Include="patros-web\web\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="patros-web\web\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="patros-web\web\images\avatar1.png" />
+    <Content Include="patros-web\web\images\background-img.jpg" />
+    <Content Include="patros-web\web\images\background.jpg" />
+    <Content Include="patros-web\web\images\blog-photo1.jpg" />
+    <Content Include="patros-web\web\images\blog-photo2.jpg" />
+    <Content Include="patros-web\web\images\blog-photo3.jpg" />
+    <Content Include="patros-web\web\images\blog1.jpg" />
+    <Content Include="patros-web\web\images\blog2.jpg" />
+    <Content Include="patros-web\web\images\blog3.jpg" />
+    <Content Include="patros-web\web\images\logo.png" />
+    <Content Include="patros-web\web\images\marker.png" />
+    <Content Include="patros-web\web\images\pattern.png" />
+    <Content Include="patros-web\web\images\person1.jpg" />
+    <Content Include="patros-web\web\images\port1.jpg" />
+    <Content Include="patros-web\web\images\port2.jpg" />
+    <Content Include="patros-web\web\images\port3.jpg" />
+    <Content Include="patros-web\web\images\port4.jpg" />
+    <Content Include="patros-web\web\images\port5.jpg" />
+    <Content Include="patros-web\web\images\port6.jpg" />
+    <Content Include="patros-web\web\images\short.png" />
+    <Content Include="patros-web\web\images\spinner1.gif" />
+    <Content Include="patros-web\web\images\unsplash1.jpg" />
+    <Content Include="patros-web\web\images\unsplash2.jpg" />
+    <Content Include="patros-web\web\images\unsplash3.jpg" />
+    <Content Include="patros-web\web\images\unsplash4.jpg" />
+    <Content Include="patros-web\web\images\unsplash5.jpg" />
+    <Content Include="patros-web\web\images\unsplash6.jpg" />
+    <Content Include="patros-web\web\images\zoom-icon.png" />
+    <Content Include="patros-web\web\index.html" />
+    <Content Include="patros-web\web\js\bootstrap.min.js" />
+    <Content Include="patros-web\web\js\jquery.js" />
+    <Content Include="patros-web\web\js\jquery.quicksand.js" />
+    <Content Include="patros-web\web\js\map.js" />
+    <Content Include="patros-web\web\single-post.html" />
+    <Content Include="pooled\web\button.html" />
+    <Content Include="pooled\web\calendar.html" />
+    <Content Include="pooled\web\charts.html" />
+    <Content Include="pooled\web\css\basictable.css" />
+    <Content Include="pooled\web\css\bootstrap.min.css" />
+    <Content Include="pooled\web\css\font-awesome.css" />
+    <Content Include="pooled\web\css\icon-font.min.css" />
+    <Content Include="pooled\web\css\jqcandlestick.css" />
+    <Content Include="pooled\web\css\jquery-ui.css" />
+    <Content Include="pooled\web\css\lightbox.css" />
+    <Content Include="pooled\web\css\monthly.css" />
+    <Content Include="pooled\web\css\morris.css" />
+    <Content Include="pooled\web\css\style.css" />
+    <Content Include="pooled\web\css\table-style.css" />
+    <Content Include="pooled\web\errorpage.html" />
+    <Content Include="pooled\web\faq.html" />
+    <Content Include="pooled\web\fonts\fontawesome-webfont.svg" />
+    <Content Include="pooled\web\gallery.html" />
+    <Content Include="pooled\web\grid.html" />
+    <Content Include="pooled\web\icons.html" />
+    <Content Include="pooled\web\images\close.png" />
+    <Content Include="pooled\web\images\closew.gif" />
+    <Content Include="pooled\web\images\cross.png" />
+    <Content Include="pooled\web\images\g1.jpg" />
+    <Content Include="pooled\web\images\g2.jpg" />
+    <Content Include="pooled\web\images\g3.jpg" />
+    <Content Include="pooled\web\images\g4.jpg" />
+    <Content Include="pooled\web\images\g5.jpg" />
+    <Content Include="pooled\web\images\g6.jpg" />
+    <Content Include="pooled\web\images\g7.jpg" />
+    <Content Include="pooled\web\images\g8.jpg" />
+    <Content Include="pooled\web\images\g9.jpg" />
+    <Content Include="pooled\web\images\grid.png" />
+    <Content Include="pooled\web\images\icon_sprite.png" />
+    <Content Include="pooled\web\images\in.jpg" />
+    <Content Include="pooled\web\images\in1.jpg" />
+    <Content Include="pooled\web\images\in10.jpg" />
+    <Content Include="pooled\web\images\in11.jpg" />
+    <Content Include="pooled\web\images\in2.jpg" />
+    <Content Include="pooled\web\images\in3.jpg" />
+    <Content Include="pooled\web\images\in4.jpg" />
+    <Content Include="pooled\web\images\in5.jpg" />
+    <Content Include="pooled\web\images\in6.jpg" />
+    <Content Include="pooled\web\images\in7.jpg" />
+    <Content Include="pooled\web\images\in8.jpg" />
+    <Content Include="pooled\web\images\in9.jpg" />
+    <Content Include="pooled\web\images\leftw.gif" />
+    <Content Include="pooled\web\images\next.png" />
+    <Content Include="pooled\web\images\phon.png" />
+    <Content Include="pooled\web\images\prev.png" />
+    <Content Include="pooled\web\images\rightw.gif" />
+    <Content Include="pooled\web\images\right_arrow.png" />
+    <Content Include="pooled\web\images\search.png" />
+    <Content Include="pooled\web\images\smile.png" />
+    <Content Include="pooled\web\images\tick.png" />
+    <Content Include="pooled\web\images\tick1.png" />
+    <Content Include="pooled\web\inbox.html" />
+    <Content Include="pooled\web\index.html" />
+    <Content Include="pooled\web\input.html" />
+    <Content Include="pooled\web\js\bootstrap.min.js" />
+    <Content Include="pooled\web\js\Chart.js" />
+    <Content Include="pooled\web\js\jquery-2.1.4.min.js" />
+    <Content Include="pooled\web\js\jquery-ui.js" />
+    <Content Include="pooled\web\js\jquery.basictable.min.js" />
+    <Content Include="pooled\web\js\jquery.jqcandlestick.min.js" />
+    <Content Include="pooled\web\js\jquery.nicescroll.js" />
+    <Content Include="pooled\web\js\lightbox-plus-jquery.min.js" />
+    <Content Include="pooled\web\js\monthly.js" />
+    <Content Include="pooled\web\js\morris.js" />
+    <Content Include="pooled\web\js\raphael-min.js" />
+    <Content Include="pooled\web\js\scripts.js" />
+    <Content Include="pooled\web\maps.html" />
+    <Content Include="pooled\web\signin.html" />
+    <Content Include="pooled\web\signup.html" />
+    <Content Include="pooled\web\tabels.html" />
+    <Content Include="pooled\web\typography.html" />
+    <Content Include="pooled\web\validation.html" />
+    <Content Include="pooled\web\w3layouts-License.txt" />
+    <Content Include="Registration.aspx" />
+    <Content Include="User\Home.aspx" />
+    <Content Include="User\Logout.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageLocation.aspx.cs">
+      <DependentUpon>ManageLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageLocation.aspx.designer.cs">
+      <DependentUpon>ManageLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataService.cs" />
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PService.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserMasterPage.Master.cs">
+      <DependentUpon>UserMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\UserMasterPage.Master.designer.cs">
+      <DependentUpon>UserMasterPage.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminMaster.Master" />
+    <Content Include="patros-web\web\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="patros-web\web\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="patros-web\web\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="patros-web\web\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="patros-web\web\font-awesome\less\bordered-pulled.less" />
+    <Content Include="patros-web\web\font-awesome\less\core.less" />
+    <Content Include="patros-web\web\font-awesome\less\fixed-width.less" />
+    <Content Include="patros-web\web\font-awesome\less\font-awesome.less" />
+    <Content Include="patros-web\web\font-awesome\less\icons.less" />
+    <Content Include="patros-web\web\font-awesome\less\larger.less" />
+    <Content Include="patros-web\web\font-awesome\less\list.less" />
+    <Content Include="patros-web\web\font-awesome\less\mixins.less" />
+    <Content Include="patros-web\web\font-awesome\less\path.less" />
+    <Content Include="patros-web\web\font-awesome\less\rotated-flipped.less" />
+    <Content Include="patros-web\web\font-awesome\less\spinning.less" />
+    <Content Include="patros-web\web\font-awesome\less\stacked.less" />
+    <Content Include="patros-web\web\font-awesome\less\variables.less" />
+    <Content Include="patros-web\web\font-awesome\scss\font-awesome.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_core.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_icons.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_larger.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_list.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_mixins.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_path.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_spinning.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_stacked.scss" />
+    <Content Include="patros-web\web\font-awesome\scss\_variables.scss" />
+    <Content Include="patros-web\web\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="patros-web\web\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="patros-web\web\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="patros-web\web\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="patros-web\web\js\send_email.php" />
+    <Content Include="pooled\web\fonts\fontawesome-webfont.eot" />
+    <Content Include="pooled\web\fonts\fontawesome-webfont.ttf" />
+    <Content Include="pooled\web\fonts\fontawesome-webfont.woff" />
+    <Content Include="pooled\web\fonts\fontawesome-webfont.woff2" />
+    <Content Include="pooled\web\fonts\FontAwesome.otf" />
+    <Content Include="pooled\web\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="pooled\web\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="User\UserMasterPage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49919</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49807/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
